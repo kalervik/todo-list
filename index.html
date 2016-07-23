@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>To Do List</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="head-div">
+                <h2>TO DO List</h2>
+                <button id="removeStorage" onclick ="deleteData()">Remove all tasks</button>
+            </div>
+            <div class="message-div" id="messages">
+                <p id="messageShow"></p><button class="close-button" onclick="deleteMessage()">X</button>
+            </div>
+            <div class="data-div" style="margin-top:30px">
+                <input type="text" placeholder="enter thing to be done!!!" id="todoData">
+                <button onclick="addTask()">Add Task</button>
+                <table class="todo-table" >
+                    <thead>
+                        <th>#</th>
+                        <th>Task</th>
+                        <th>Actions</th>
+                    </thead>
+                    <tbody id="showListTable">
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

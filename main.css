@@ -1,0 +1,20 @@
+.todo-table,th,td{
+    padding:30px 100px 10px 60px;
+}
+#messages,#removeStorage{
+    display: none;
+}
+.close-button{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+}
+#messageShow{
+    padding:5px 10px 5px 10px;
+}
+.message-div{
+    position: fixed;
+    right: 20%;
+    background-color: darkseagreen;
+    min-width: 250px;
+}
